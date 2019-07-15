@@ -1,1 +1,6 @@
-
+tkinter
+pymysql.cursors
+datetime
+time
+hashlib
+os
