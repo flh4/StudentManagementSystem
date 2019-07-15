@@ -1,0 +1,4 @@
+localhost
+rick
+password
+school
