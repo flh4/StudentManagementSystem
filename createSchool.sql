@@ -100,10 +100,22 @@ INSERT INTO DEPARTMENT VALUES
 	('ENGL','English','HSH',12),
 	('ACCT','Accounting','BUS',10);
 
-INSERT INTO FACULTY VALUES('1011','Rick','Herzog','CSCI','Professor', 'password'),
+INSERT INTO FACULTY VALUES 
+	('1011','Rick','Herzog','CSCI','Professor', 'password'),
 	('1012','admin','admin','CSCI','Associate Professor', 'secret');
 
-	
+INSERT INTO STUDENT VALUES
+	(100000,'Tony','Hawk','CSCI','CINF',40,1011),
+	(100001,'Mary','Hawk','CSCI','CINF',35,1011),
+	(100002,'David','Hawk','CSCI','ITEC',66,1011),
+	(100003,'Catherine','Lim','ITEC','CINF',20,1017),
+	(100004,'Larry','Johnson','ITEC',null,66,1017),
+	(100005,'Linda','Johnson','CINF','ENGL',13,1015),
+	(100006,'Lillian','Johnson','CINF','ITEC',18,1015),
+	(100007,'Ben','Zico',null,null,16,1014),
+	(100008,'Bill','Ching','ARTS','ENGL',90,1018),
+	(100009,'Linda','King','ARTS','CSCI',125,1018);
+						   
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
