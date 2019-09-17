@@ -1,4 +1,4 @@
-tkinter
+pyqt5
 pymysql.cursors
 datetime
 time
