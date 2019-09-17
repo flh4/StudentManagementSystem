@@ -1,2 +1,2 @@
 # StudentManagementSystem
-A student management system GUI project using python
+A student management system GUI project using python and MYSQL
